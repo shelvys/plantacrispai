@@ -240,15 +240,8 @@ research or teaching, and evaluate it. **You may not** redistribute it, modify
 it, create derivative works, or use it commercially without prior written
 permission. Full terms in **[`LICENSE`](LICENSE)**.
 
-> [!WARNING]
-> Because this repository is public, GitHub's Terms of Service grant other
-> GitHub users a limited right to view and fork it within GitHub, regardless of
-> the license above. If the institute requires that no copy exist outside its
-> control while the application is processing, make the repository private —
-> Settings → General → Danger Zone → Change visibility.
-
 For commercial licensing, redistribution rights or collaboration, contact
-<crispricar@gmail.com>.
+<sshelvys@gmail.com>.
 
 Third-party components retain their own licenses — see
 [`THIRD_PARTY_LICENSES.md`](THIRD_PARTY_LICENSES.md) and [`NOTICE`](NOTICE).
