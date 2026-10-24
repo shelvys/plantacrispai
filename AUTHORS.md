@@ -9,8 +9,8 @@ Pusa, New Delhi, under the PIU-GET Project (Code 12-197).
 | Name | Role | Contribution |
 |------|------|--------------|
 | **Shelvy S.** | Senior Research Fellow · Lead developer | Architected the platform. Analysis engine (v5.0), ML ensemble classifier, `.ab1` binary parser, chromatogram renderer and the complete React frontend. |
-| **Archana S.** | Senior Research Fellow | Zygosity classification logic, CAPS/dCAPS designer, validation pipeline against ICE + TIDE ground truth. |
-| **Ramesh R.** | PhD Scholar | *OsAAP3* dataset curation, experimental validation, alignment algorithm tuning, multi-gRNA analysis module. |
+| **Archana S.**<br><archana.oct.22@gmail.com> | Senior Research Fellow | Zygosity classification logic, CAPS/dCAPS designer, validation pipeline against ICE + TIDE ground truth. |
+| **Ramesh R.**<br>[rameshram96.github.io](https://rameshram96.github.io) | PhD Scholar | *OsAAP3* dataset curation, experimental validation, alignment algorithm tuning, multi-gRNA analysis module. |
 
 ## Scientific supervision
 
