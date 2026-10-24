@@ -1,0 +1,54 @@
+{
+  "name": "plantacrispai",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AI-assisted CRISPR genome editing analysis platform for plant scientists \u2014 Sanger chromatogram parsing, zygosity genotyping, CAPS/dCAPS marker design and gRNA efficiency scoring, entirely in the browser.",
+  "keywords": [
+    "crispr",
+    "genome-editing",
+    "sanger-sequencing",
+    "ab1",
+    "chromatogram",
+    "zygosity",
+    "genotyping",
+    "caps-marker",
+    "dcaps",
+    "grna-design",
+    "plant-biotechnology",
+    "bioinformatics"
+  ],
+  "homepage": "https://plantacrispai.netlify.app",
+  "license": "SEE LICENSE IN LICENSE",
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-scripts": "5.0.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "eslint src --ext .js"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
