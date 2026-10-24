@@ -1,0 +1,79 @@
+name: Bug report
+description: Something in the application is broken or behaves unexpectedly
+title: "[Bug]: "
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report this.
+
+        > [!CAUTION]
+        > **Do not attach `.ab1` files or sequences you cannot publish.** Issues are public.
+        > Where possible, reproduce the problem with the built-in *OsAAP3* demo dataset
+        > (Quick Demo in the app) and report that instead. If the bug depends on your own
+        > data, say so and we will arrange a private channel.
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did you do, what did you expect, and what happened instead?
+      placeholder: |
+        1. Uploaded 12 .ab1 files
+        2. Set generation to T1, ploidy diploid
+        3. Clicked Analyse
+        4. Expected zygosity calls; got "alignment failed" for 3 samples
+    validations:
+      required: true
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Which part of the app?
+      options:
+        - File upload / .ab1 parsing
+        - Trimming
+        - Alignment / indel detection
+        - Zygosity classification
+        - Chromatogram viewer
+        - CAPS / dCAPS designer
+        - gRNA designer
+        - Dashboard / Explorer
+        - Report or CSV export
+        - Landing page
+        - Not sure
+    validations:
+      required: true
+
+  - type: input
+    id: experiment
+    attributes:
+      label: Experiment context
+      description: Organism, generation, ploidy, number of guides, guide length
+      placeholder: "rice, T1, diploid, single gRNA (20 bp)"
+
+  - type: textarea
+    id: console
+    attributes:
+      label: Browser console output
+      description: Press F12 → Console. Paste any errors. This is automatically formatted as code.
+      render: shell
+
+  - type: input
+    id: browser
+    attributes:
+      label: Browser and OS
+      placeholder: "Chrome 141 on Windows 11"
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: I have not attached unpublished sequence data
+          required: true
+        - label: I searched existing issues for a duplicate
+          required: true

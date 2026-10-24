@@ -1,0 +1,70 @@
+name: Scientific / genotype call issue
+description: A genotype call or score disagrees with an independent method
+title: "[Science]: "
+labels: ["science", "classifier", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        These reports are the most valuable contributions to the project — they drive
+        classifier improvement directly. Thank you.
+
+        > [!CAUTION]
+        > Do not attach unpublished sequence data to this public issue.
+        > Report the derived metrics instead; we will arrange a private channel if needed.
+
+  - type: textarea
+    id: disagreement
+    attributes:
+      label: What call disagrees?
+      description: What did PlantaCRISPAI report, and what do you believe is correct?
+      placeholder: |
+        PlantaCRISPAI: Heterozygous (confidence 0.82)
+        Correct: Homozygous -1 bp
+    validations:
+      required: true
+
+  - type: dropdown
+    id: ground-truth
+    attributes:
+      label: How was the correct answer established?
+      options:
+        - ICE
+        - TIDE
+        - Both ICE and TIDE
+        - Cloning and sequencing of individual alleles
+        - Progeny segregation analysis
+        - Amplicon NGS
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: metrics
+    attributes:
+      label: Reported metrics
+      description: From the Explorer or ML Model tab
+      placeholder: |
+        indel size: -1
+        R² upstream: 0.99
+        R² downstream: 0.94
+        downstream mismatch rate: 0.041
+        ICE-equivalent score: 71
+        flags: small indel near trim boundary
+      render: text
+    validations:
+      required: true
+
+  - type: input
+    id: context
+    attributes:
+      label: Organism, gene, generation, ploidy
+      placeholder: "rice, OsNRT1.1B, T2, diploid"
+    validations:
+      required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything else
+      description: Trace quality, trimming mode used, whether the read was a reverse primer, etc.

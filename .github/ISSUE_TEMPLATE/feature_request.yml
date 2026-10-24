@@ -1,0 +1,43 @@
+name: Feature request
+description: Suggest a capability or improvement
+title: "[Feature]: "
+labels: ["enhancement", "triage"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem would this solve?
+      description: Describe the wet-lab or analysis workflow that is currently awkward.
+      placeholder: "When screening a T2 population of 200 plants I have to re-enter the reference for every batch because..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What would you like it to do?
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: What do you do now instead?
+      description: Other tools, manual steps, spreadsheets.
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Analysis engine / classifier
+        - .ab1 parsing or trimming
+        - Chromatogram viewer
+        - CAPS / dCAPS designer
+        - gRNA designer
+        - Reporting and export
+        - Usability / UI
+        - Documentation
+        - Other
+    validations:
+      required: true

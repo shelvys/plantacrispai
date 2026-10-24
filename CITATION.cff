@@ -1,0 +1,52 @@
+cff-version: 1.2.0
+message: "If you use PlantaCRISPAI in your research, please cite it as below."
+title: "PlantaCRISPAI: An AI-powered universal CRISPR genotyping platform for Sanger sequencing data from genome-edited plants"
+abstract: >-
+  PlantaCRISPAI is a browser-based platform that genotypes CRISPR-edited plants
+  directly from Sanger sequencing data. It parses Applied Biosystems .ab1 files
+  natively, aligns reads to a reference amplicon with a gap-aware Smith-Waterman
+  algorithm, localises the Cas9 cut site from the guide RNA, and classifies each
+  plant as wild-type, mosaic, heterozygous or homozygous using a generation-aware
+  ensemble of rule-based, ICE-equivalent and Random Forest scores. It also
+  designs CAPS and dCAPS markers for PCR-based screening and scores candidate
+  guide RNAs for efficiency and CAPS compatibility. All computation runs
+  client-side; no sequence data leaves the user's browser.
+type: software
+version: "1.0.0"
+date-released: "2026-10-25"
+license: LicenseRef-Proprietary
+license-url: "https://github.com/shelvys/plantacrispai/blob/main/LICENSE"
+repository-code: "https://github.com/shelvys/plantacrispai"
+url: "https://plantacrispai.netlify.app"
+keywords:
+  - CRISPR
+  - genome editing
+  - Sanger sequencing
+  - chromatogram analysis
+  - zygosity
+  - genotyping
+  - CAPS marker
+  - dCAPS
+  - guide RNA design
+  - plant biotechnology
+  - rice
+  - bioinformatics
+authors:
+  - family-names: "S."
+    given-names: "Shelvy"
+    affiliation: "Division of Plant Physiology, ICAR-Indian Agricultural Research Institute, New Delhi, India"
+  - family-names: "S."
+    given-names: "Archana"
+    affiliation: "Division of Plant Physiology, ICAR-Indian Agricultural Research Institute, New Delhi, India"
+  - family-names: "R."
+    given-names: "Ramesh"
+    affiliation: "Division of Plant Physiology, ICAR-Indian Agricultural Research Institute, New Delhi, India"
+  - family-names: "Sathee"
+    given-names: "Lekshmy"
+    affiliation: "Division of Plant Physiology, ICAR-Indian Agricultural Research Institute, New Delhi, India"
+  - family-names: "C."
+    given-names: "Viswanathan"
+    affiliation: "ICAR-Indian Agricultural Research Institute, New Delhi, India"
+contact:
+  - email: "crispricar@gmail.com"
+    name: "PlantaCRISPAI team, Division of Plant Physiology, ICAR-IARI"

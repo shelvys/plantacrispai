@@ -1,0 +1,88 @@
+PlantaCRISPAI
+An AI-assisted CRISPR genotyping platform for Sanger sequencing
+data from genome-edited plants.
+
+Copyright (c) 2026
+    ICAR-Indian Agricultural Research Institute (ICAR-IARI),
+    Division of Plant Physiology, Pusa, New Delhi - 110012, India
+and
+    Shelvy S.
+
+All rights reserved. See LICENSE for terms.
+
+----------------------------------------------------------------
+DEVELOPED UNDER
+----------------------------------------------------------------
+
+PIU-GET Project (Code 12-197)
+"Enhancing Climate Resilience and Ensuring Food Security with
+ Genome Editing Tools"
+Division of Plant Physiology, ICAR-IARI, New Delhi.
+
+----------------------------------------------------------------
+AUTHORS
+----------------------------------------------------------------
+
+Development
+    Shelvy S.        Senior Research Fellow — lead developer;
+                     analysis engine, ML ensemble, AB1 parser,
+                     React frontend
+    Archana S.       Senior Research Fellow — zygosity
+                     classification logic, CAPS/dCAPS designer,
+                     validation pipeline
+    Ramesh R.        PhD Scholar — OsAAP3 dataset curation,
+                     experimental validation, alignment tuning,
+                     multi-gRNA module
+
+Supervision
+    Dr. Lekshmy Sathee     Senior Scientist, Principal
+                           Investigator, EFC Genome Editing
+                           Project
+    Dr. Viswanathan C.     Joint Director (Research); National
+                           Co-ordinator, EFC Genome Editing
+                           Project
+
+----------------------------------------------------------------
+THIRD-PARTY SOFTWARE
+----------------------------------------------------------------
+
+This product includes software developed by third parties under
+open source licenses. See THIRD_PARTY_LICENSES.md for the full
+text of those licenses and the required attribution notices.
+
+  React          Copyright (c) Meta Platforms, Inc. and
+                 affiliates. MIT License.
+  React DOM      Copyright (c) Meta Platforms, Inc. and
+                 affiliates. MIT License.
+  Scheduler      Copyright (c) Meta Platforms, Inc. and
+                 affiliates. MIT License.
+  react-scripts  Copyright (c) Facebook, Inc. and its
+                 affiliates. MIT License.
+
+Web fonts (Inter, Fira Code) are served by Google Fonts under the
+SIL Open Font License 1.1 and are not redistributed in this
+repository.
+
+----------------------------------------------------------------
+SCIENTIFIC ATTRIBUTION
+----------------------------------------------------------------
+
+Algorithms in this software implement or adapt published methods.
+The authors of those methods are credited in
+docs/SCIENTIFIC_METHODS.md. Their inclusion here does not imply
+their endorsement of this software.
+
+----------------------------------------------------------------
+TRADEMARKS
+----------------------------------------------------------------
+
+"ICAR" and "IARI" and the associated emblems are the property of
+the Indian Council of Agricultural Research and the Indian
+Agricultural Research Institute respectively, and are used here to
+identify the institutional origin of this work. No other use is
+authorised.
+
+Applied Biosystems and ABI are trademarks of Thermo Fisher
+Scientific. The .ab1/ABIF format is read for interoperability
+only; this software is not affiliated with or endorsed by Thermo
+Fisher Scientific.

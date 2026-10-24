@@ -1,0 +1,138 @@
+PlantaCRISPAI — Proprietary Software License
+All Rights Reserved
+
+Copyright (c) 2026
+    ICAR-Indian Agricultural Research Institute (ICAR-IARI),
+    Division of Plant Physiology, Pusa, New Delhi - 110012, India
+and
+    Shelvy S.
+
+================================================================
+NOTICE OF PENDING COPYRIGHT APPLICATION
+================================================================
+
+A copyright application covering this software ("the Software")
+has been filed through ICAR-Indian Agricultural Research Institute
+and is currently under processing. All rights in the Software,
+including but not limited to the source code, algorithms, user
+interface design, documentation and the name "PlantaCRISPAI", are
+expressly reserved by the copyright holders named above.
+
+No license, right or interest in the Software is granted, whether
+expressly, by implication, by estoppel or otherwise, except as
+explicitly set out in the Limited Permission section below. The
+public availability of this repository does not place the Software
+in the public domain and does not constitute a waiver of any right.
+
+================================================================
+1. LIMITED PERMISSION
+================================================================
+
+Subject to the restrictions in Section 2, permission is hereby
+granted, free of charge, to any person obtaining a copy of the
+Software, to:
+
+  (a) view and read the source code;
+  (b) execute the Software, in unmodified form, solely for
+      internal, non-commercial academic research or teaching;
+  (c) evaluate the Software for the purpose of deciding whether
+      to seek a license from the copyright holders.
+
+This permission is granted on a personal, non-exclusive,
+non-transferable, non-sublicensable and revocable basis.
+
+================================================================
+2. RESTRICTIONS
+================================================================
+
+Except with the prior written permission of the copyright holders,
+no person may:
+
+  (a) redistribute, publish, sell, rent, lease, sublicense or
+      otherwise make the Software, or any part of it, available
+      to any third party;
+  (b) modify, adapt, translate or create derivative works based
+      on the Software;
+  (c) use the Software, or any algorithm, model or method
+      embodied in it, for any commercial purpose, including the
+      provision of paid services;
+  (d) reverse engineer, decompile or disassemble any part of the
+      Software, except to the extent such restriction is
+      prohibited by applicable law;
+  (e) remove, obscure or alter any copyright, trademark or other
+      proprietary notice contained in the Software;
+  (f) use the names "PlantaCRISPAI", "ICAR", "ICAR-IARI" or the
+      name of any author to endorse or promote any product or
+      service derived from the Software.
+
+================================================================
+3. ACADEMIC USE AND CITATION
+================================================================
+
+Use of the Software in work that is published, presented or
+submitted for publication must be acknowledged by citing the
+Software as specified in CITATION.cff. Citation does not by
+itself grant any right beyond those in Section 1.
+
+================================================================
+4. THIRD-PARTY COMPONENTS
+================================================================
+
+The Software incorporates third-party open source components that
+are licensed separately by their respective copyright holders.
+Those components remain governed by their own license terms, which
+are reproduced in THIRD_PARTY_LICENSES.md. Nothing in this License
+limits any right granted to you under those separate licenses.
+
+================================================================
+5. NO WARRANTY
+================================================================
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, ACCURACY AND
+NONINFRINGEMENT.
+
+THE SOFTWARE IS A RESEARCH TOOL. IT IS NOT A CERTIFIED DIAGNOSTIC
+DEVICE AND IS NOT VALIDATED FOR REGULATORY SUBMISSION, CLINICAL
+USE, SEED CERTIFICATION OR ANY DECISION WITH LEGAL OR COMMERCIAL
+CONSEQUENCE. RESULTS MUST BE INDEPENDENTLY CONFIRMED BY
+APPROPRIATE LABORATORY METHODS BEFORE BEING RELIED UPON.
+
+================================================================
+6. LIMITATION OF LIABILITY
+================================================================
+
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR
+ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF
+CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+================================================================
+7. TERMINATION
+================================================================
+
+The permission granted in Section 1 terminates automatically and
+without notice if you breach any term of this License. On
+termination you must cease all use of the Software and destroy all
+copies in your possession or control.
+
+================================================================
+8. GOVERNING LAW
+================================================================
+
+This License is governed by the laws of India. The courts at New
+Delhi shall have exclusive jurisdiction over any dispute arising
+out of or in connection with this License.
+
+================================================================
+9. LICENSING ENQUIRIES
+================================================================
+
+For commercial licensing, redistribution rights, collaboration or
+any permission not granted above, contact:
+
+    Division of Plant Physiology
+    ICAR-Indian Agricultural Research Institute
+    Pusa, New Delhi - 110012, India
+    Email: crispricar@gmail.com
