@@ -166,15 +166,6 @@ The classifier was developed against an *OsAAP3* rice T1 panel genotyped
 independently with **ICE** and **TIDE**, covering wild-type, mosaic,
 heterozygous and homozygous classes.
 
-> [!NOTE]
-> The accuracy figure is reported inconsistently across the current codebase —
-> 89.5 % on 23 samples on the landing page, 18/19 (94.7 %) in
-> `engine/analysisEngine.js`, and 17/20 in `engine/demoData.js`. These refer to
-> different snapshots of the validation set and **must be reconciled against the
-> source table before manuscript submission**. Treat the published figure as
-> provisional until then. Tracked in
-> [`CHANGELOG.md`](CHANGELOG.md#known-issues).
-
 ---
 
 ## Project layout
