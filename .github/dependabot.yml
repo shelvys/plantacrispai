@@ -11,6 +11,12 @@ updates:
     commit-message:
       prefix: "chore(deps)"
       prefix-development: "chore(deps-dev)"
+    ignore:
+      # react-scripts 5.0.1 declares typescript "^3.2.1 || ^4" as an optional
+      # peer. A major bump to 5.x+ desynchronises package-lock.json and breaks
+      # `npm ci`. Hold at ^4 until the Vite migration (see CHANGELOG 1.1.0).
+      - dependency-name: "typescript"
+        update-types: ["version-update:semver-major"]
     groups:
       react:
         patterns:

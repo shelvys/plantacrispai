@@ -79,6 +79,16 @@ These changes affect packaging only; no application logic was altered.
 - Licensing, citation, contribution, security and architecture documentation
   added.
 - Continuous integration workflow added.
+- `react-scripts` moved from `dependencies` to `devDependencies`. It is a
+  build-time toolchain, not a runtime dependency; Create React App's default
+  placement caused its entire build and test tree (jest, webpack-dev-server,
+  svgo, workbox) to be reported by `npm audit --omit=dev`. Production
+  dependencies are now React and React DOM alone, and the production audit is
+  clean.
+- `typescript` pinned to `^4.9.5` as a devDependency. npm otherwise
+  auto-installs the optional peer at latest (7.x), which does not satisfy
+  react-scripts' `^3.2.1 || ^4` range and desynchronises `package-lock.json`,
+  breaking `npm ci`. Dependabot is configured to hold it at `^4`.
 
 ### Known issues
 
